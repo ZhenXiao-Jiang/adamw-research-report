@@ -1,0 +1,1 @@
+timestamp,method,model,lambda,alpha,schedule,seed,epoch,lr,train_loss,test_loss,test_error,weight_l2_norm,epoch_seconds

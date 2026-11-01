@@ -1,0 +1,23 @@
+{
+  "task": "cifar10_classification",
+  "description": "CIFAR-10 上 Adam+L2 / AdamW / Adam(no decay) 对比，小 ResNet 与小 VGG",
+  "models": ["small_resnet", "small_vgg"],
+  "num_classes": 10,
+  "epochs": 20,
+  "batch_size": 128,
+  "num_workers": 2,
+  "seeds": [0, 1, 2],
+  "lambdas": [0.001, 0.01, 0.1],
+  "alphas": [0.001, 0.003],
+  "schedules": ["cosine", "step"],
+  "step_milestones": [0.5, 0.75],
+  "step_gamma": 0.1,
+  "methods": ["adam_l2", "adamw", "adam_no_decay"],
+  "no_decay_on_bias_and_norm": true,
+  "data_root": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/data/cifar10",
+  "output": {
+    "logs": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/logs",
+    "data": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/data",
+    "figures": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/figures"
+  }
+}

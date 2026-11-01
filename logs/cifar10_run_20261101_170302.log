@@ -1,0 +1,16 @@
+配置路径: C:\Users\Jjian\Desktop\Star\_tmp_adamw\configs\cifar10_config.json
+运行设备: cuda (cuda_available=True)
+数据根目录: C:/Users/Jjian/Desktop/Star/_tmp_adamw/data/cifar10
+日志目录: C:\Users\Jjian\Desktop\Star\_tmp_adamw\logs
+数据目录: C:\Users\Jjian\Desktop\Star\_tmp_adamw\data
+结果 CSV: C:\Users\Jjian\Desktop\Star\_tmp_adamw\data\cifar10_results.csv
+方法: ['adam_l2', 'adamw', 'adam_no_decay']
+模型: ['small_resnet', 'small_vgg']
+种子: [0, 1, 2]
+lambda: [0.001, 0.01, 0.1]
+alpha: [0.001, 0.003]
+日程: ['cosine', 'step']
+轮数: 20
+step_milestones: [0.5, 0.75], step_gamma: 0.1
+总运行次数: 216
+优化器: torch.optim.AdamW（PyTorch 官方实现，BSD-3-Clause）
