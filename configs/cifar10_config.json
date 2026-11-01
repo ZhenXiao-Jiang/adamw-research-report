@@ -14,10 +14,10 @@
   "step_gamma": 0.1,
   "methods": ["adam_l2", "adamw", "adam_no_decay"],
   "no_decay_on_bias_and_norm": true,
-  "data_root": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/data/cifar10",
+  "data_root": "data/cifar10",
   "output": {
-    "logs": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/logs",
-    "data": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/data",
-    "figures": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/figures"
+    "logs": "logs",
+    "data": "data",
+    "figures": "figures"
   }
 }

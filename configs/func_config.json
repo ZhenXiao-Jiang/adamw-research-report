@@ -24,9 +24,9 @@
     "budgets": [2000]
   },
   "output": {
-    "logs": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/logs",
-    "data": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/data",
-    "func_data": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/data/func",
-    "figures": "C:/Users/Jjian/Desktop/Star/_tmp_adamw/figures"
+    "logs": "logs",
+    "data": "data",
+    "func_data": "data/func",
+    "figures": "figures"
   }
 }
